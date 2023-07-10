@@ -186,7 +186,6 @@ com_mon = np.delete(com_mon, 0)
 imd_mon = np.delete(imd_mon, 0)
 
 plt.scatter(imd_mon, com_mon, color = 'hotpink')
-plt.title("Scatter Plot- IMD 1x1 Degree Data v/s 3 Station Mean of Bangalore")
 plt.xlabel('1x1 Deg Monthly Rainfall (mm)')
 plt.ylabel('Bangalore Monthly Mean using 3 Stations (mm)')
 plt.grid()
