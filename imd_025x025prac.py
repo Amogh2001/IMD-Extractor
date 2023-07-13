@@ -15,7 +15,7 @@ import imd_nc_extractor as imd
 import rmse_funcs as rmfn
 
 
-#data = xr.open_dataset('/media/amogh01/One Touch/IMD 0.25 x 0.25/IMD_0.25_2000.nc')
+
 data = imd.nc_extractor_025('/media/amogh01/One Touch/IMD 0.25 x 0.25/IMD_0.25_2001.nc')
 data.bang_rain_getter(leap = False)
 imd_22_north = np.array(data.bang_north)
