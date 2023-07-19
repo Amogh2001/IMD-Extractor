@@ -9,7 +9,7 @@ self.rf_arr.append(self.rainfall_data[days][7][11])
 
 where [7] and [11] represent lat and long respectively (Bangalore Coordinates). Refer imd_1x1_prac
 
-Used for 0.25 deg X 0.25 deg data, one can get the desired coordinate by changing the numbers in bang_rain_getter
+Used for 0.25 deg X 0.25 deg data, one can get the desired coordinates by changing the numbers in bang_rain_getter
 
 For example:
 
