@@ -1,5 +1,5 @@
 # IMD-Extractor
-Extracts rainfall data from IMD (Indian Meteorological Department) .nc file and an example usage 
+Extracts rainfall data from IMD (Indian Meteorological Department) .nc file. Also includes an example 
 
 Can extract IMD 1 deg X 1 Deg data using nc_extractor.
 
