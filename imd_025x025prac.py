@@ -44,7 +44,7 @@ r_imd = np.delete(r_imd, 0)
 
 #==================================== IMERG Data ==================================
 
-imerg = xr.open_dataset('/media/amogh01/One Touch/IMERG_LateRun/IMERG_LR_2001-2023.nc')
+imerg = xr.open_dataset('IMERG_LateRun/IMERG_LR_2001-2023.nc')
 
 imerg_rainfall = imerg['GPM_3IMERGDL_06_precipitationCal']
 imerg_yearly = imerg_rainfall.groupby('time.year')
