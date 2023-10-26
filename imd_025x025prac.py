@@ -16,7 +16,7 @@ import rmse_funcs as rmfn
 
 
 
-data = imd.nc_extractor_025('/media/amogh01/One Touch/IMD 0.25 x 0.25/IMD_0.25_2001.nc')
+data = imd.nc_extractor_025('IMD_0.25_2001.nc')
 data.bang_rain_getter(leap = False)
 imd_22_north = np.array(data.bang_north)
 imd_22_south = np.array(data.bang_south)
